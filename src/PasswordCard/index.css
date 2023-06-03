@@ -1,0 +1,59 @@
+.card-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #94a3b8;
+  border-radius: 10px;
+  margin: 10px;
+}
+.dp-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.name-password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  margin-right: 5px;
+  color: #ffffff;
+}
+.site-heading {
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.star-image {
+  width: 50px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete-image {
+  width: 20px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.dp-text {
+  color: #ffffff;
+  margin: 0px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.count-text {
+  color: #ffffff;
+}
